@@ -1,0 +1,38 @@
+.debug .row {
+  height: 150px;
+  background-color: lightgrey;
+}
+
+.debug [class*='col-'] {
+  height: 100%;
+  background-color: white;
+  border: 1px solid red;
+}
+
+header {
+  background-color: lightblue;
+}
+
+.navhide {
+  display: none;
+}
+
+.jumbo {
+  background-color: lightgreen;
+  height: 500px;
+  padding: 100px;
+}
+
+
+
+@media only screen and (min-width:991px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:991px) {
+  .navhide {
+    display: block;
+  }
+}
