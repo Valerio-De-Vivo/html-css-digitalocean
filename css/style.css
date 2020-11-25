@@ -3,6 +3,8 @@
   background-color: lightgrey;
 }
 
+
+
 .debug [class*='col-'] {
   height: 100%;
   background-color: white;
@@ -21,6 +23,21 @@ header {
   background-color: lightgreen;
   height: 500px;
   padding: 100px;
+}
+
+.loghi {
+  background-color: lightgrey;
+  padding: 100px;
+}
+
+.icon {
+  background-color: lightgreen;
+  padding: 100px;
+  height: 700px;
+}
+
+.debug .row .row {
+  height: 100%;
 }
 
 
