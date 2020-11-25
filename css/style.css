@@ -36,6 +36,44 @@ header {
   height: 700px;
 }
 
+.slider {
+  background-color: lightgrey;
+  padding: 100px;
+}
+
+/* da dare all img */
+
+.slide::after ,
+.slide::before {
+  display: inline-block;
+  content: 'freccia';
+  vertical-align: middle;
+}
+
+.features {
+  background-color: lightgreen;
+  padding: 100px;
+  height: 800px;
+}
+
+.service {
+  background-color: lightgrey;
+  padding: 100px;
+  height: 1300px;
+}
+
+.getstarted {
+  background-color: lightgreen;
+  padding: 100px;
+  height: 400px;
+}
+
+footer {
+  background-color: lightgrey;
+  padding: 100px;
+  height: 700px;
+}
+
 .debug .row .row {
   height: 100%;
 }
