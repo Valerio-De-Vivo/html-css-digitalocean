@@ -1,44 +1,132 @@
-.debug .row {
+/* .debug .row {
   height: 150px;
   background-color: lightgrey;
-}
+} */
 
 
 
-.debug [class*='col-'] {
+/* .debug [class*='col-'] {
   height: 100%;
   background-color: white;
   border: 1px solid red;
+} */
+
+.pdl-30 {
+  padding-left: 30px;
+}
+
+.btn_outline {
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid #006aff;
+  color: #006aff;
+  border-radius: 5px;
 }
 
 header {
-  background-color: lightblue;
+  height: 80px;
+  background-color: white;
+  line-height: 80px;
+  color: #031c4e;
+  font-size: 15px;
 }
 
-.navhide {
-  display: none;
+header ul {
+  list-style: none;
 }
+
+header ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+header ul li a {
+  color: #031c4e;
+}
+
+header ul li a:hover {
+  text-decoration: none;
+  color: #006aff;
+}
+
+header ul li a i {
+  padding: 0 2px;
+}
+
+.logo {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
 
 .jumbo {
-  background-color: lightgreen;
-  height: 500px;
-  padding: 100px;
+  background-image: url(../img/bg-home-1.jpg);
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.textarea {
+  color: white;
+  padding-right: 20px;
+}
+
+.textarea h1 {
+  font-size: 5rem;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+
+.textarea p {
+  font-size: 2rem;
+  margin: 10px 0;
+  line-height: 1.4;
+  padding: 10px 0;
+  color: #bbccfc;
+}
+
+.contactjumbo {
+  background-color: white;
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contactjumbo h2:nth-child(2) {
+  color: #006aff;
+}
+
+.contactform {
+  margin: 20px 0;
+}
+
+.createaccount {
+  background-color: #579aff;
+  color: white;
+}
+
+.signgoogle {
+  background-color: white;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 2% , 50%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
+}
+
+.contactjumbo a {
+  text-decoration: underline;
 }
 
 .loghi {
-  background-color: lightgrey;
-  padding: 100px;
+
 }
 
 .icon {
-  background-color: lightgreen;
-  padding: 100px;
-  height: 700px;
+
 }
 
 .slider {
-  background-color: lightgrey;
-  padding: 100px;
+
 }
 
 /* da dare all img */
@@ -51,43 +139,35 @@ header {
 }
 
 .features {
-  background-color: lightgreen;
-  padding: 100px;
-  height: 800px;
+
 }
 
 .service {
-  background-color: lightgrey;
-  padding: 100px;
-  height: 1300px;
+
 }
 
 .getstarted {
-  background-color: lightgreen;
-  padding: 100px;
-  height: 400px;
+
 }
 
 footer {
-  background-color: lightgrey;
-  padding: 100px;
-  height: 700px;
+
 }
 
-.debug .row .row {
+/* .debug .row .row {
   height: 100%;
-}
+} */
 
 
 
-@media only screen and (min-width:991px) {
-  .burger {
-    display: none;
+@media only screen and (max-width:1199px) {
+  .logo {
+    width: 60%;
+    padding-bottom: 10px;
   }
-}
 
-@media only screen and (min-width:991px) {
-  .navhide {
-    display: block;
+  .burger {
+    font-size: 18px;
+    color: #006aff;
   }
 }
