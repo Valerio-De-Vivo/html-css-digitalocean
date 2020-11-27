@@ -400,6 +400,52 @@ footer ul li a {
 }
 
 
+.chat {
+  width: 400px;
+  bottom: 3%;
+  right: 3%;
+  position: fixed;
+}
+
+.chat img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.shark_text {
+  background-color: white;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
+}
+
+.shark_text i {
+  position: absolute;
+  left: 99%;
+  bottom: 5%;
+  color: white;
+  font-size: 25px;
+}
+
+.shark {
+  background-color: #006aff;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width:1199px) {
